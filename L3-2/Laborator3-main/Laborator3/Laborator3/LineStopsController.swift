@@ -1,15 +1,16 @@
-
 //
-//  ViewController.swift
+//  LineStopsController.swift
 //  Laborator3
 //
-//  Created by user216460 on 8/31/22.
+//  Created by user216460 on 9/6/22.
 //
+
+
 
 import UIKit
 
 
-struct NasaNewsModel: Decodable{
+/*struct NasaNewsModel: Decodable{
     var lines: [Line] = []
 }
 
@@ -29,13 +30,16 @@ struct Line: Decodable{
     let type: String
     //et date: String
     
-}
-class ViewController: UIViewController {
+}*/
+class LineStopsController: UIViewController {
     
     
     private var model = NasaNewsModel()
 
+       
     @IBOutlet weak var tableView: UITableView!
+    var item: Line?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         print("here;;")
@@ -74,33 +78,25 @@ class ViewController: UIViewController {
     }
     
     private func configure(){
+        
+        guard let item = item else {
+            return
+        }
+ 
         title = "NasaNews"
         navigationController?.navigationBar.prefersLargeTitles = true
         tableView.delegate = self
         tableView.dataSource = self
         
-        tableView.register(NasaNewsTableViewCell.self, forCellReuseIdentifier: NasaNewsTableViewCell.cellId)
+        tableView.register(LineStopsTableViewCell.self, forCellReuseIdentifier: LineStopsTableViewCell.cellId)
     }
-    
-    private func navigate(item: Line){
-        //guard let viewController = storyboard?.instantiateViewController(withIdentifier: "ArticleViewController")
-        //as? ArticleViewController else {return}
-        
-        guard let viewController = storyboard?.instantiateViewController(withIdentifier: "LineStopsController")
-        as? LineStopsController else {return}
-        viewController.item = item //inlocuiteste cele 2 de jos in urma modificarilor ArticleViewController
-        //viewController.textView?.text = item.body
-        //viewController.title = item.title
-        navigationController?.pushViewController(viewController, animated: true)
-    }
-    
     
 }
 
-extension ViewController:UITableViewDataSource,UITableViewDelegate{
+extension LineStopsController:UITableViewDataSource,UITableViewDelegate{
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath)->UITableViewCell {
-        guard let cell = tableView.dequeueReusableCell(withIdentifier: NasaNewsTableViewCell.cellId, for: indexPath) as? NasaNewsTableViewCell else {return UITableViewCell()}
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: LineStopsTableViewCell.cellId, for: indexPath) as? LineStopsTableViewCell else {return UITableViewCell()}
         
         //let model = NasaNewsTableViewCellModel(title: "title", date: "date\(indexPath.row)")
         let cellModel = model.lines[indexPath.row]
@@ -115,53 +111,9 @@ extension ViewController:UITableViewDataSource,UITableViewDelegate{
     }
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath){
         tableView.deselectRow(at: indexPath, animated: true)
-        let item = model.lines[indexPath.row]
-        navigate(item: item)
+        
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

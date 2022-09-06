@@ -15,6 +15,8 @@
 		5786EF9928BFF07900FE1BC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5786EF9728BFF07900FE1BC4 /* LaunchScreen.storyboard */; };
 		5786EFA128BFF1CB00FE1BC4 /* NasaNewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5786EFA028BFF1CB00FE1BC4 /* NasaNewsTableViewCell.swift */; };
 		57D32ECA28C0D9E40030381D /* ArticleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D32EC928C0D9E40030381D /* ArticleViewController.swift */; };
+		57DD6D9228C7B3FA00F79481 /* LineStopsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57DD6D9128C7B3FA00F79481 /* LineStopsController.swift */; };
+		57DD6D9428C7B44400F79481 /* LineStopsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57DD6D9328C7B44400F79481 /* LineStopsTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		5786EF9A28BFF07900FE1BC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5786EFA028BFF1CB00FE1BC4 /* NasaNewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NasaNewsTableViewCell.swift; sourceTree = "<group>"; };
 		57D32EC928C0D9E40030381D /* ArticleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleViewController.swift; sourceTree = "<group>"; };
+		57DD6D9128C7B3FA00F79481 /* LineStopsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineStopsController.swift; sourceTree = "<group>"; };
+		57DD6D9328C7B44400F79481 /* LineStopsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineStopsTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,8 @@
 			isa = PBXGroup;
 			children = (
 				5786EF8C28BFF07800FE1BC4 /* AppDelegate.swift */,
+				57DD6D9128C7B3FA00F79481 /* LineStopsController.swift */,
+				57DD6D9328C7B44400F79481 /* LineStopsTableViewCell.swift */,
 				5786EF8E28BFF07800FE1BC4 /* SceneDelegate.swift */,
 				5786EF9028BFF07800FE1BC4 /* ViewController.swift */,
 				5786EFA028BFF1CB00FE1BC4 /* NasaNewsTableViewCell.swift */,
@@ -144,9 +150,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57DD6D9428C7B44400F79481 /* LineStopsTableViewCell.swift in Sources */,
 				5786EF9128BFF07800FE1BC4 /* ViewController.swift in Sources */,
 				5786EFA128BFF1CB00FE1BC4 /* NasaNewsTableViewCell.swift in Sources */,
 				57D32ECA28C0D9E40030381D /* ArticleViewController.swift in Sources */,
+				57DD6D9228C7B3FA00F79481 /* LineStopsController.swift in Sources */,
 				5786EF8D28BFF07800FE1BC4 /* AppDelegate.swift in Sources */,
 				5786EF8F28BFF07800FE1BC4 /* SceneDelegate.swift in Sources */,
 			);
