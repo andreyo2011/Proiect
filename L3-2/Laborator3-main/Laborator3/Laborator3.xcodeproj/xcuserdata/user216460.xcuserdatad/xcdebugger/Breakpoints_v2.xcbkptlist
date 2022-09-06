@@ -36,5 +36,269 @@
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "48EEA0E5-CF7D-4227-9A8F-113AD3879FDF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Laborator3/LineStopsController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "LineStopsController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "48EEA0E5-CF7D-4227-9A8F-113AD3879FDF - a6ea09f0044a9a6c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Laborator3.LineStopsController.tableView.getter : Swift.Optional&lt;__C.UITableView&gt;"
+                  moduleName = "Laborator3"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user216460/Desktop/Samples/L3-2/Laborator3-main/Laborator3/Laborator3/LineStopsController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "48EEA0E5-CF7D-4227-9A8F-113AD3879FDF - de4c1733f6a57678"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Laborator3.LineStopsController.tableView.setter : Swift.Optional&lt;__C.UITableView&gt;"
+                  moduleName = "Laborator3"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user216460/Desktop/Samples/L3-2/Laborator3-main/Laborator3/Laborator3/LineStopsController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "48EEA0E5-CF7D-4227-9A8F-113AD3879FDF - 429e3f5b76953169"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Laborator3.LineStopsController.tableView.modify : Swift.Optional&lt;__C.UITableView&gt;"
+                  moduleName = "Laborator3"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user216460/Desktop/Samples/L3-2/Laborator3-main/Laborator3/Laborator3/LineStopsController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "48EEA0E5-CF7D-4227-9A8F-113AD3879FDF - 96a77668dcee3578"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Laborator3.LineStopsController.tableView.modify : Swift.Optional&lt;__C.UITableView&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "Laborator3"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user216460/Desktop/Samples/L3-2/Laborator3-main/Laborator3/Laborator3/LineStopsController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "48EEA0E5-CF7D-4227-9A8F-113AD3879FDF - eb425b1184584473"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Laborator3.LineStopsController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Laborator3.LineStopsController"
+                  moduleName = "Laborator3"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user216460/Desktop/Samples/L3-2/Laborator3-main/Laborator3/Laborator3/LineStopsController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "116">
+               </Location>
+               <Location
+                  uuid = "48EEA0E5-CF7D-4227-9A8F-113AD3879FDF - 9eddf9b4d97fd378"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Laborator3.LineStopsController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Laborator3.LineStopsController&gt;"
+                  moduleName = "Laborator3"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user216460/Desktop/Samples/L3-2/Laborator3-main/Laborator3/Laborator3/LineStopsController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "92">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "83056D6B-4613-49FC-96F7-7EE7C5ECD6F5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Laborator3/LineStopsController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "LineStopsController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "83056D6B-4613-49FC-96F7-7EE7C5ECD6F5 - a6ea09f0044a9a6c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Laborator3.LineStopsController.tableView.getter : Swift.Optional&lt;__C.UITableView&gt;"
+                  moduleName = "Laborator3"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user216460/Desktop/Samples/L3-2/Laborator3-main/Laborator3/Laborator3/LineStopsController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "83056D6B-4613-49FC-96F7-7EE7C5ECD6F5 - de4c1733f6a57678"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Laborator3.LineStopsController.tableView.setter : Swift.Optional&lt;__C.UITableView&gt;"
+                  moduleName = "Laborator3"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user216460/Desktop/Samples/L3-2/Laborator3-main/Laborator3/Laborator3/LineStopsController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "83056D6B-4613-49FC-96F7-7EE7C5ECD6F5 - 429e3f5b76953169"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Laborator3.LineStopsController.tableView.modify : Swift.Optional&lt;__C.UITableView&gt;"
+                  moduleName = "Laborator3"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user216460/Desktop/Samples/L3-2/Laborator3-main/Laborator3/Laborator3/LineStopsController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "83056D6B-4613-49FC-96F7-7EE7C5ECD6F5 - 96a77668dcee3578"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Laborator3.LineStopsController.tableView.modify : Swift.Optional&lt;__C.UITableView&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "Laborator3"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user216460/Desktop/Samples/L3-2/Laborator3-main/Laborator3/Laborator3/LineStopsController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "83056D6B-4613-49FC-96F7-7EE7C5ECD6F5 - eb425b1184584473"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Laborator3.LineStopsController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Laborator3.LineStopsController"
+                  moduleName = "Laborator3"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user216460/Desktop/Samples/L3-2/Laborator3-main/Laborator3/Laborator3/LineStopsController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "116">
+               </Location>
+               <Location
+                  uuid = "83056D6B-4613-49FC-96F7-7EE7C5ECD6F5 - 9eddf9b4d97fd378"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Laborator3.LineStopsController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Laborator3.LineStopsController&gt;"
+                  moduleName = "Laborator3"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user216460/Desktop/Samples/L3-2/Laborator3-main/Laborator3/Laborator3/LineStopsController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "92">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0668C779-4C2B-4074-96D3-9FDF7F2DC4C5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Laborator3/LineStopsController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "111"
+            endingLineNumber = "111"
+            landmarkName = "tableView(_:numberOfRowsInSection:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "963DA430-EB8B-484E-B820-7A04974D2CA6"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Laborator3/LineStopsController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "112"
+            endingLineNumber = "112"
+            landmarkName = "tableView(_:numberOfRowsInSection:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0FFD4579-94F3-4C41-A472-41237BDDD3F4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Laborator3/LineStopsController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "110"
+            endingLineNumber = "110"
+            landmarkName = "tableView(_:numberOfRowsInSection:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>
